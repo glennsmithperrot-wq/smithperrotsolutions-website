@@ -38,7 +38,7 @@
           <li><a href="index.html#testimonials">Testimonials</a></li>
           <li><a href="blog.html" aria-current="page">Blog</a></li>
           <li><a href="index.html#contact">Contact</a></li>
-          <li><a class="btn" href="index.html#contact">Book a consult</a></li>
+          <li><a class="btn" href="index.html#contact">Schedule consultation</a></li>
         </ul>
       </nav>
     </div>
@@ -74,6 +74,25 @@
             <a class="btn btn-primary" href="#">Read more</a>
           </article>
         </div>
+      </div>
+    </section>
+
+    <!-- Newsletter lead magnet: encourage visitors to subscribe for updates and a free checklist【996359143893396†L589-L599】. -->
+    <section id="newsletter" class="section alt cta">
+      <div class="container two-col">
+        <div>
+          <h2>Get your free college readiness checklist</h2>
+          <p>Subscribe to our newsletter and receive a downloadable checklist plus regular tips and event updates.</p>
+          <!-- Newsletter subscription form. Replace {your-newsletter-id} with your Formspree endpoint or integrate with your email provider. -->
+          <form class="form-grid" action="https://formspree.io/f/{your-newsletter-id}" method="POST" novalidate>
+            <label>Email
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+            <button class="btn btn-primary" type="submit">Send me the checklist</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <img src="hero.jpg" alt="Student reading a college guide" loading="lazy" width="560" height="380">
       </div>
     </section>
   </main>
