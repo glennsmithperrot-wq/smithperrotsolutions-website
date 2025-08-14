@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- Update title and description with the proper business name -->
+  <title>Blog — Smith‑Perrot Education Services</title>
+  <meta name="description" content="Stay up to date with the latest events and insights from Smith‑Perrot Education Services." />
+
+  <link rel="canonical" href="https://www.smithperroteducationservices.com/blog" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="/icon-192.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- Open Graph and Twitter metadata -->
+  <meta property="og:title" content="Blog — Smith‑Perrot Education Services" />
+  <meta property="og:description" content="Recent news, events, and insights from our education services." />
+  <meta property="og:url" content="https://www.smithperroteducationservices.com/blog" />
+  <meta property="og:image" content="https://www.smithperroteducationservices.com/og-image.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <!-- Updated logo text for proper business name -->
+      <a class="logo" href="/">Smith‑Perrot Education Services</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle menu</span>
+        ☰
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary" role="navigation">
+        <ul>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#testimonials">Testimonials</a></li>
+          <li><a href="blog.html" aria-current="page">Blog</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <!-- Updated schedule button to open Google Calendar booking page in a new tab -->
+          <li><a class="btn" href="https://calendar.app.google/hAntVMUgwSqA9Nw7A" target="_blank" rel="noopener">Schedule consultation</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" role="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>News & Updates</h1>
+          <p>Read about our latest workshops, webinars, success stories, and resources to help your student succeed.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="section">
+      <div class="container">
+        <h2>Recent posts</h2>
+        <div class="grid cards">
+          <!-- New article promoting Glenn's op‑ed on building trust and centering community in Jersey City schools -->
+          <article class="card">
+            <h3>August 14, 2025 &ndash; Op‑Ed: Building trust &amp; centering community in Jersey City’s public schools</h3>
+            <p>In his op‑ed for Hudson County View, Glenn Smith‑Perrot calls for building trust and centering community in Jersey City’s public schools and outlines steps for the school board to strengthen engagement. We&rsquo;re proud to share his perspective on inclusive education.</p>
+            <a class="btn btn-primary" href="https://hudsoncountyview.com/op-ed-building-trust-centering-community-in-jersey-citys-public-schools/" target="_blank" rel="noopener">Read the op‑ed</a>
+          </article>
+
+          <!-- New article summarizing Glenn's letter calling for an equitable school system in Jersey City -->
+          <article class="card">
+            <h3>October 6, 2024 &ndash; Letter: We need a school system that empowers every child</h3>
+            <p>Glenn&rsquo;s letter in the Jersey City Times urges the Board of Education to build a school system that truly empowers every child. He calls for transparent budgeting and fairness in funding, targeted support for vulnerable students, and an inclusive decision‑making process that involves parents, teachers and the community【771962794864949†screenshot】. The letter stresses that despite Jersey City&rsquo;s large education budget, systemic inequities continue to hold back underrepresented students【86721914846210†screenshot】.</p>
+            <a class="btn btn-primary" href="https://jcitytimes.com/letter-we-need-a-school-system-that-empowers-every-child/" target="_blank" rel="noopener">Read the letter</a>
+          </article>
+          <article class="card">
+            <h3>July 30, 2025 &ndash; Summer College Prep Workshop Recap</h3>
+            <p>We hosted an intensive summer workshop where students polished essays, practiced interview skills, and toured local campuses. Read our recap and key takeaways.</p>
+            <a class="btn btn-primary" href="#">Read more</a>
+          </article>
+          <article class="card">
+            <h3>June 15, 2025 &ndash; Financial Literacy Webinar Highlights</h3>
+            <p>Our June webinar covered budgeting tips, understanding aid packages, and avoiding debt. Catch up on the discussion and download the free resources.</p>
+            <a class="btn btn-primary" href="#">Read more</a>
+          </article>
+          <article class="card">
+            <h3>May 25, 2025 &ndash; Scholarship Success Stories</h3>
+            <p>Congratulations to our students who secured scholarships this spring! Learn how they navigated the application process and stood out.</p>
+            <a class="btn btn-primary" href="#">Read more</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter lead magnet: encourage visitors to subscribe for updates and a free checklist【996359143893396†L589-L599】. -->
+    <section id="newsletter" class="section alt cta">
+      <div class="container two-col">
+        <div>
+          <h2>Get your free college readiness checklist</h2>
+          <p>Subscribe to our newsletter and receive a downloadable checklist plus regular tips and event updates.</p>
+          <!-- Newsletter subscription form. Replace {your-newsletter-id} with your Formspree endpoint or integrate with your email provider. -->
+          <form class="form-grid" action="https://formspree.io/f/{your-newsletter-id}" method="POST" novalidate>
+            <label>Email
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+            <button class="btn btn-primary" type="submit">Send me the checklist</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <img src="hero.jpg" alt="Student reading a college guide" loading="lazy" width="560" height="380">
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Smith‑Perrot Education Services. All rights reserved.</p>
+      <nav aria-label="Footer">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
